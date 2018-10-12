@@ -10,7 +10,8 @@ public class Main {
 
     public static void main(String args[]) {
         RestTemplate restTemplate = new RestTemplate();
-        Country country = restTemplate.getForObject("https://restcountries.eu/rest/v2/alpha/col", Country.class);
+        Country country = restTemplate.getForObject(
+                "https://restcountries.eu/rest/v2/alpha/col", Country.class);
         log.info(country.getName());
     }
 }
