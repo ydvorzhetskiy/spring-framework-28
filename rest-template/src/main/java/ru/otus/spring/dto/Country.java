@@ -1,4 +1,4 @@
-package ru.otus.spring;
+package ru.otus.spring.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
